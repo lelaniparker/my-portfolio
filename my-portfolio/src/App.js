@@ -20,11 +20,11 @@ function App() {
           <Switch>
             <Route path="/" component={HomePage} exact />
             <Route path="/about" component={AboutPage} />
-            <Route path="/contact" component={ContactPage} />
             <Route path="/ca-projects-list" component={CAProjectsListPage} />
             <Route path="/ca-projects/:name" component={CAProjectPage} />
             <Route path="/personal-projects-list" component={PersonalProjectsListPage} />
             <Route path="/personal-projects/:name" component={PersonalProjectPage} />
+            <Route path="/contact" component={ContactPage} />
             <Route component={NotFoundPage} />
           </Switch>
         </div>
