@@ -16,8 +16,10 @@ const CAProjectPage = ({ match }) => {
             {project.content.map((paragraph, key) => (
                 <p key={key}>{paragraph}</p>
             ))}
-            {project.websiteLink ? (<p><a href={project.websiteLink} target="_blank">Website Link</a></p>) : null}            
-            <p><a href={project.githubLink} target="_blank">Git Repo</a></p>
+            <p>Tech stack used: {project.techStack}</p>
+            {project.websiteLink ? (<p>Here's the link to <a href={project.websiteLink} target="_blank">the site</a></p>) : null}            
+            <p>If you would like to check it out, take a look at the <a href={project.githubLink} target="_blank">Git Repo</a></p>
+
             <h3>Other Projects</h3>
             <ProjectsList projects={otherProjects} />
         </>
