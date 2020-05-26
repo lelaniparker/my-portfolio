@@ -1,5 +1,4 @@
 import React from 'react';
-import assessments from "./assessments-content";
 
 const CAProjectsListPage = () => (
     <>

@@ -1,4 +1,4 @@
-const assessments = [
+const assessment = [
   {
     name: "ruby-assessment",
     title: "Ruby Assessment",
@@ -23,4 +23,4 @@ const assessments = [
   },
 ];
 
-export default assessments;
+export default assessment;
