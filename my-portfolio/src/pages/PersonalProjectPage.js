@@ -7,6 +7,7 @@ const PersonalProjectPage = ({ match }) => {
     const name = match.params.name;
     const project = personalProjectContent.find(project => project.name === name);
     const otherProjects = personalProjectContent.filter(project => project.name !== name);
+    //const pageLink = personalProjectContent.pageLink;
 
     if (!project) return <NotFoundPage />
     
