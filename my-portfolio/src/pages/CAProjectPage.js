@@ -17,8 +17,8 @@ const CAProjectPage = ({ match }) => {
                 <p key={key}>{paragraph}</p>
             ))}
             <p>Tech stack used: {project.techStack}</p>
-            {project.websiteLink ? (<p>Here's the link to <a href={project.websiteLink} target="_blank">the site</a></p>) : null}            
-            <p>If you would like to check it out, take a look at the <a href={project.githubLink} target="_blank">Git Repo</a></p>
+            {project.websiteLink ? (<p>Here's the link to <a href={project.websiteLink} target="_blank" rel="noopener noreferrer">the site</a></p>) : null}            
+            <p>If you would like to check it out, take a look at the <a href={project.githubLink} target="_blank" rel="noopener noreferrer">Git Repo</a></p>
 
             <h3>Other Projects</h3>
             <ProjectsList projects={otherProjects} />
