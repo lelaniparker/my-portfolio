@@ -9,6 +9,7 @@ const project = [
     ],
     techStack: "Ruby, CLI",
     githubLink: "https://github.com/Lelani82/Terminal-App-Assessment",
+    pageLink: "ca-projects",
   },
   {
     name: "Portfolio Assessment",
@@ -20,6 +21,7 @@ const project = [
     techStack: "HTML, CSS, SASS",
     websiteLink: "http://lelaniparker.design",
     githubLink: "https://github.com/Lelani82/Lelani82.github.io",
+    pageLink: "ca-projects",
   },
   {
     name: "Ruby on Rails Assessment",
@@ -32,6 +34,7 @@ const project = [
     techStack: "Ruby, Rails, PostgreSQL, RSpec, HTML, CSS",
     websiteLink: "https://sheltered-ridge-97373.herokuapp.com/",
     githubLink: "https://github.com/raeginez/railsproject",
+    pageLink: "ca-projects",
   },
   {
     name: "JavaScript API Hackathon",
@@ -44,6 +47,7 @@ const project = [
     techStack: "HTML, CSS, JavaScript",
     websiteLink: "https://lelani82.github.io/tony_time/",
     githubLink: "https://github.com/Lelani82/tony_time",
+    pageLink: "ca-projects",
   },
   {
     name: "MERN Assessment",
@@ -56,7 +60,8 @@ const project = [
     techStack: "MongoDB, Express.js, React.js, Node.js",
     websiteLink: "https://analyzevit.netlify.app/",
     githubLink: "https://github.com/Lelani82/MERN-Assessment",
-  }
+    pageLink: "ca-projects",
+  },
 ];
 
 export default project;

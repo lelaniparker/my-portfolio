@@ -7,7 +7,6 @@ const PersonalProjectPage = ({ match }) => {
     const name = match.params.name;
     const project = personalProjectContent.find(project => project.name === name);
     const otherProjects = personalProjectContent.filter(project => project.name !== name);
-    //const pageLink = personalProjectContent.pageLink;
 
     if (!project) return <NotFoundPage />
     
@@ -18,6 +17,7 @@ const PersonalProjectPage = ({ match }) => {
                 <p key={key}>{paragraph}</p>
             ))}
             <p>Tech Stack used: {project.techStack}</p>
+            {project.videoLink ? (<p>Here's the link to our <a href={project.videoLink} target="_blank" rel="noopener noreferrer">video submission</a> for our Hackathon entry.</p>) : null}
             {project.websiteLink ? (<p>Here's the link to <a href={project.websiteLink} target="_blank" rel="noopener noreferrer">the site</a></p>) : null}
             <p>If you would like to check it out, take a look at the <a href={project.githubLink} target="_blank" rel="noopener noreferrer">Git Repo</a></p>
 
