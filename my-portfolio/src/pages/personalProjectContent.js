@@ -1,3 +1,5 @@
+const pageLink = "/personal-projects/";
+
 const project = [
     {
     name: "Flatten The Curve Hackathon",
@@ -12,4 +14,7 @@ const project = [
     }
 ];
 
-export default project;
+export default {
+  project,
+  pageLink,
+}
